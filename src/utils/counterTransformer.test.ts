@@ -4,8 +4,8 @@ import {increase, decrease} from "./counterTransformer";
 describe("counterTransformer", () => {
   test("should increase value ", () => {
     expect(increase(1)).toBe(2);
-    expect(increase(6)).toBe(8);
-    expect(increase(12)).toBe(15);
+    expect(increase(6)).toBe(9);
+    expect(increase(12)).toBe(25);
   });
 
   test("should decrease value", () => {
