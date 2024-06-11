@@ -22,13 +22,12 @@ function App() {
         <button onClick={() => setCount((count) => increase(count))}>
           ⬆ Increase
         </button>
+      </div>
+      <div className='card'>
         <button onClick={() => setCount((count) => decrease(count))}>
           ⬇ Decrease
         </button>
       </div>
-      <p className='read-the-docs'>
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }
